@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84073DB61DC5FA27009966FA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84073DB01DC5FA27009966FA /* AboutViewController.swift */; };
+		84073DB71DC5FA27009966FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84073DB11DC5FA27009966FA /* AppDelegate.swift */; };
+		84073DB81DC5FA27009966FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84073DB21DC5FA27009966FA /* Assets.xcassets */; };
+		84073DB91DC5FA27009966FA /* EaglesEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 84073DB31DC5FA27009966FA /* EaglesEye.html */; };
+		84073DBA1DC5FA27009966FA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84073DB41DC5FA27009966FA /* Info.plist */; };
+		84073DBB1DC5FA27009966FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84073DB51DC5FA27009966FA /* ViewController.swift */; };
+		84073DC11DC5FAC2009966FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84073DBE1DC5FAC2009966FA /* Main.storyboard */; };
+		84073DCD1DC60D68009966FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84073DCC1DC60D68009966FA /* Default-568h@2x.png */; };
+		84073DD11DC6199D009966FA /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 84073DD01DC6199D009966FA /* Default-Landscape.png */; };
+		84073DD31DC61A5A009966FA /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84073DD21DC61A5A009966FA /* Default-Landscape@2x.png */; };
+		84420C881DEB1A880053F759 /* Fyber_AdMob_7.13.1-r1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84420C871DEB1A880053F759 /* Fyber_AdMob_7.13.1-r1.framework */; };
+		84420C8B1DEB1AAD0053F759 /* FYBHZMediationTestSuite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84420C891DEB1AAD0053F759 /* FYBHZMediationTestSuite.framework */; };
+		84420C8C1DEB1AAD0053F759 /* HeyzapAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84420C8A1DEB1AAD0053F759 /* HeyzapAds.framework */; };
+		84420C8E1DEB1F590053F759 /* Fyber_Chartboost_6.5.2-r1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84420C8D1DEB1F590053F759 /* Fyber_Chartboost_6.5.2-r1.framework */; };
+		8499377F1DC662BD00670219 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8499377E1DC662BD00670219 /* GoogleService-Info.plist */; };
+		849937851DC6747D00670219 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849937831DC6747D00670219 /* Fabric.framework */; };
+		849937861DC6747E00670219 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849937841DC6747D00670219 /* Crashlytics.framework */; };
+		84D8E68A1DCA72FA00FC1586 /* GAExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8E6891DCA72FA00FC1586 /* GAExtensions.swift */; };
+		CADDBBEC3CE840D296CC25C1 /* Pods_EaglesEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D506620819C61F41BB182F3 /* Pods_EaglesEye.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D506620819C61F41BB182F3 /* Pods_EaglesEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EaglesEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		252B8B7832DE2D4FED9293CE /* Pods-EaglesEye.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaglesEye.release.xcconfig"; path = "Pods/Target Support Files/Pods-EaglesEye/Pods-EaglesEye.release.xcconfig"; sourceTree = "<group>"; };
+		43C4B146E5D81B21BCA472D7 /* Pods-EaglesEye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaglesEye.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EaglesEye/Pods-EaglesEye.debug.xcconfig"; sourceTree = "<group>"; };
+		78E10FF2B7A8C86E1E4EB23B /* Pods-EaglesEye.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaglesEye.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-EaglesEye/Pods-EaglesEye.adhoc.xcconfig"; sourceTree = "<group>"; };
+		84073D971DC4EA2E009966FA /* EaglesEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaglesEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84073DB01DC5FA27009966FA /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = EaglesEye/AboutViewController.swift; sourceTree = SOURCE_ROOT; };
+		84073DB11DC5FA27009966FA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = EaglesEye/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		84073DB21DC5FA27009966FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = EaglesEye/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		84073DB31DC5FA27009966FA /* EaglesEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = EaglesEye.html; path = EaglesEye/EaglesEye.html; sourceTree = SOURCE_ROOT; };
+		84073DB41DC5FA27009966FA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EaglesEye/Info.plist; sourceTree = SOURCE_ROOT; };
+		84073DB51DC5FA27009966FA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = EaglesEye/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		84073DBF1DC5FAC2009966FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = EaglesEye/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		84073DCC1DC60D68009966FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "EaglesEye/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		84073DD01DC6199D009966FA /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "EaglesEye/Default-Landscape.png"; sourceTree = SOURCE_ROOT; };
+		84073DD21DC61A5A009966FA /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x.png"; path = "EaglesEye/Default-Landscape@2x.png"; sourceTree = SOURCE_ROOT; };
+		84420C871DEB1A880053F759 /* Fyber_AdMob_7.13.1-r1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Fyber_AdMob_7.13.1-r1.framework"; sourceTree = "<group>"; };
+		84420C891DEB1AAD0053F759 /* FYBHZMediationTestSuite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FYBHZMediationTestSuite.framework; sourceTree = "<group>"; };
+		84420C8A1DEB1AAD0053F759 /* HeyzapAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HeyzapAds.framework; sourceTree = "<group>"; };
+		84420C8D1DEB1F590053F759 /* Fyber_Chartboost_6.5.2-r1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Fyber_Chartboost_6.5.2-r1.framework"; sourceTree = "<group>"; };
+		8499377E1DC662BD00670219 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "EaglesEye/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		849937831DC6747D00670219 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		849937841DC6747D00670219 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		84C62F371DC9312800F54856 /* EaglesEye-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EaglesEye-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		84D8E6891DCA72FA00FC1586 /* GAExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAExtensions.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84073D941DC4EA2D009966FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84420C881DEB1A880053F759 /* Fyber_AdMob_7.13.1-r1.framework in Frameworks */,
+				CADDBBEC3CE840D296CC25C1 /* Pods_EaglesEye.framework in Frameworks */,
+				84420C8C1DEB1AAD0053F759 /* HeyzapAds.framework in Frameworks */,
+				849937861DC6747E00670219 /* Crashlytics.framework in Frameworks */,
+				84420C8E1DEB1F590053F759 /* Fyber_Chartboost_6.5.2-r1.framework in Frameworks */,
+				84420C8B1DEB1AAD0053F759 /* FYBHZMediationTestSuite.framework in Frameworks */,
+				849937851DC6747D00670219 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84073D8E1DC4EA2D009966FA = {
+			isa = PBXGroup;
+			children = (
+				84073D991DC4EA2E009966FA /* EaglesEye */,
+				84073D981DC4EA2E009966FA /* Products */,
+				9C3D55BAFD2FEADFC42AC04D /* Pods */,
+				A92F2CB1A013A9C82140D2F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84073D981DC4EA2E009966FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84073D971DC4EA2E009966FA /* EaglesEye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84073D991DC4EA2E009966FA /* EaglesEye */ = {
+			isa = PBXGroup;
+			children = (
+				84073DB01DC5FA27009966FA /* AboutViewController.swift */,
+				84D8E6891DCA72FA00FC1586 /* GAExtensions.swift */,
+				84073DB11DC5FA27009966FA /* AppDelegate.swift */,
+				84073DBE1DC5FAC2009966FA /* Main.storyboard */,
+				84073DB21DC5FA27009966FA /* Assets.xcassets */,
+				84073DD01DC6199D009966FA /* Default-Landscape.png */,
+				84073DD21DC61A5A009966FA /* Default-Landscape@2x.png */,
+				84073DCC1DC60D68009966FA /* Default-568h@2x.png */,
+				84073DB31DC5FA27009966FA /* EaglesEye.html */,
+				84C62F371DC9312800F54856 /* EaglesEye-Bridging-Header.h */,
+				84073DB51DC5FA27009966FA /* ViewController.swift */,
+				84073DB41DC5FA27009966FA /* Info.plist */,
+				8499377E1DC662BD00670219 /* GoogleService-Info.plist */,
+			);
+			name = EaglesEye;
+			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		9C3D55BAFD2FEADFC42AC04D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43C4B146E5D81B21BCA472D7 /* Pods-EaglesEye.debug.xcconfig */,
+				252B8B7832DE2D4FED9293CE /* Pods-EaglesEye.release.xcconfig */,
+				78E10FF2B7A8C86E1E4EB23B /* Pods-EaglesEye.adhoc.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A92F2CB1A013A9C82140D2F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84420C8D1DEB1F590053F759 /* Fyber_Chartboost_6.5.2-r1.framework */,
+				84420C891DEB1AAD0053F759 /* FYBHZMediationTestSuite.framework */,
+				84420C8A1DEB1AAD0053F759 /* HeyzapAds.framework */,
+				84420C871DEB1A880053F759 /* Fyber_AdMob_7.13.1-r1.framework */,
+				849937831DC6747D00670219 /* Fabric.framework */,
+				849937841DC6747D00670219 /* Crashlytics.framework */,
+				1D506620819C61F41BB182F3 /* Pods_EaglesEye.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84073D961DC4EA2D009966FA /* EaglesEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84073DA91DC4EA2E009966FA /* Build configuration list for PBXNativeTarget "EaglesEye" */;
+			buildPhases = (
+				09442AE4A06D8F25C0A734AB /* [CP] Check Pods Manifest.lock */,
+				84073D931DC4EA2D009966FA /* Sources */,
+				84073D941DC4EA2D009966FA /* Frameworks */,
+				84073D951DC4EA2D009966FA /* Resources */,
+				7A6BB6A507FF7E1B3D4BB858 /* [CP] Embed Pods Frameworks */,
+				0A2EBFA1C50EDE67CF3C5525 /* [CP] Copy Pods Resources */,
+				849937821DC6742100670219 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EaglesEye;
+			productName = BullsEye;
+			productReference = 84073D971DC4EA2E009966FA /* EaglesEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84073D8F1DC4EA2D009966FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Magic Lump Games";
+				TargetAttributes = {
+					84073D961DC4EA2D009966FA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KHRD8446CX;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 84073D921DC4EA2D009966FA /* Build configuration list for PBXProject "EaglesEye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84073D8E1DC4EA2D009966FA;
+			productRefGroup = 84073D981DC4EA2E009966FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84073D961DC4EA2D009966FA /* EaglesEye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84073D951DC4EA2D009966FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84073DB91DC5FA27009966FA /* EaglesEye.html in Resources */,
+				8499377F1DC662BD00670219 /* GoogleService-Info.plist in Resources */,
+				84073DC11DC5FAC2009966FA /* Main.storyboard in Resources */,
+				84073DD31DC61A5A009966FA /* Default-Landscape@2x.png in Resources */,
+				84073DB81DC5FA27009966FA /* Assets.xcassets in Resources */,
+				84073DCD1DC60D68009966FA /* Default-568h@2x.png in Resources */,
+				84073DBA1DC5FA27009966FA /* Info.plist in Resources */,
+				84073DD11DC6199D009966FA /* Default-Landscape.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09442AE4A06D8F25C0A734AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0A2EBFA1C50EDE67CF3C5525 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaglesEye/Pods-EaglesEye-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A6BB6A507FF7E1B3D4BB858 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaglesEye/Pods-EaglesEye-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849937821DC6742100670219 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run c1348d78762584daadd7a0bb3b138c5ccf641597 370d3b07b1aa5af034b2de89acf24a2b3c174df6a95f600698ed3c57f0700c99";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84073D931DC4EA2D009966FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84073DBB1DC5FA27009966FA /* ViewController.swift in Sources */,
+				84D8E68A1DCA72FA00FC1586 /* GAExtensions.swift in Sources */,
+				84073DB71DC5FA27009966FA /* AppDelegate.swift in Sources */,
+				84073DB61DC5FA27009966FA /* AboutViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84073DBE1DC5FAC2009966FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84073DBF1DC5FAC2009966FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84073DA71DC4EA2E009966FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84073DA81DC4EA2E009966FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84073DAA1DC4EA2E009966FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C4B146E5D81B21BCA472D7 /* Pods-EaglesEye.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KHRD8446CX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EaglesEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magiclumpgames.EaglesEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6a7f54cd-5444-493b-9b20-3223b336ad37";
+				PROVISIONING_PROFILE_SPECIFIER = "EaglesEye-Dev";
+				SWIFT_OBJC_BRIDGING_HEADER = "EaglesEye-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84073DAB1DC4EA2E009966FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 252B8B7832DE2D4FED9293CE /* Pods-EaglesEye.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = KHRD8446CX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EaglesEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magiclumpgames.EaglesEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7ed26e64-a57c-4b29-9675-492f22192223";
+				PROVISIONING_PROFILE_SPECIFIER = "EaglesEye-Appstore";
+				SWIFT_OBJC_BRIDGING_HEADER = "EaglesEye-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84073DD41DC61F3E009966FA /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		84073DD51DC61F3E009966FA /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E10FF2B7A8C86E1E4EB23B /* Pods-EaglesEye.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = KHRD8446CX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EaglesEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magiclumpgames.EaglesEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9b5b75c4-4372-4a48-8d7c-ebf67a6a7671";
+				PROVISIONING_PROFILE_SPECIFIER = "EaglesEye-Adhoc";
+				SWIFT_OBJC_BRIDGING_HEADER = "EaglesEye-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Adhoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84073D921DC4EA2D009966FA /* Build configuration list for PBXProject "EaglesEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84073DA71DC4EA2E009966FA /* Debug */,
+				84073DA81DC4EA2E009966FA /* Release */,
+				84073DD41DC61F3E009966FA /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84073DA91DC4EA2E009966FA /* Build configuration list for PBXNativeTarget "EaglesEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84073DAA1DC4EA2E009966FA /* Debug */,
+				84073DAB1DC4EA2E009966FA /* Release */,
+				84073DD51DC61F3E009966FA /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84073D8F1DC4EA2D009966FA /* Project object */;
+}

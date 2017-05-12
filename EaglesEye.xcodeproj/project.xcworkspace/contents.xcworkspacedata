@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:/Users/alaattinbedir/Projects/iOS/BullsEye/EaglesEye.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../EaglesEye/AboutViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../EaglesEye/AppDelegate.swift">
+   </FileRef>
+   <Group
+      location = "group:../EaglesEye/Assets.xcassets"
+      name = "Assets.xcassets">
+      <Group
+         location = "group:AppIcon.appiconset"
+         name = "AppIcon.appiconset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-120.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-121.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-152.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-167.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-180.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-20.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-29.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-40.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-41.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-42.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-58.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-59.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-60.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-76.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-80.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-81.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-87.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Background.imageset"
+         name = "Background.imageset">
+         <FileRef
+            location = "group:Background@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Button-Highlighted.imageset"
+         name = "Button-Highlighted.imageset">
+         <FileRef
+            location = "group:Button-Highlighted@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Button-Normal.imageset"
+         name = "Button-Normal.imageset">
+         <FileRef
+            location = "group:Button-Normal@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Contents.json">
+      </FileRef>
+      <Group
+         location = "group:InfoButton.imageset"
+         name = "InfoButton.imageset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:InfoButton@2x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:SliderThumb-Highlighted.imageset"
+         name = "SliderThumb-Highlighted.imageset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:SliderThumb-Highlighted@2x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:SliderThumb-Normal.imageset"
+         name = "SliderThumb-Normal.imageset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:SliderThumb-Normal@2x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:SliderTrackLeft.imageset"
+         name = "SliderTrackLeft.imageset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:SliderTrackLeft@2x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:SliderTrackRight.imageset"
+         name = "SliderTrackRight.imageset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:SliderTrackRight@2x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:SmallButton.imageset"
+         name = "SmallButton.imageset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:SmallButton@2x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:StartOverIcon.imageset"
+         name = "StartOverIcon.imageset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:StartOverIcon@2x.png">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:../EaglesEye/Base.lproj"
+      name = "Base.lproj">
+      <FileRef
+         location = "group:Main.storyboard">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:../EaglesEye/Default-Landscape.png">
+   </FileRef>
+   <FileRef
+      location = "group:../EaglesEye/Default-Landscape@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../EaglesEye/EaglesEye.html">
+   </FileRef>
+   <FileRef
+      location = "group:../EaglesEye/Info.plist">
+   </FileRef>
+   <FileRef
+      location = "group:../EaglesEye/ViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../EaglesEye/Default-568h@2x.png">
+   </FileRef>
+</Workspace>
